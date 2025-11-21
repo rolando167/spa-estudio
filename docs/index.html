@@ -82,7 +82,6 @@
     <!-- js-sha256 -->
     <script src="https://cdn.jsdelivr.net/npm/js-sha256@0.9.0/src/sha256.min.js"></script>
 
-
     <script>
         const selectCategoria = document.getElementById('selectCategoria');
         const selectCurso = document.getElementById('selectCurso');
@@ -203,10 +202,36 @@
             location.reload();
         }
 
+        function mostrarNotificacion(titulo, cuerpo) {
+            if (Notification.permission === "granted") {
+                new Notification(titulo, {
+                    body: cuerpo,
+                    icon: "icon-192.png"
+                });
+            }
+        }
+
+
+        // Ejemplo: recordatorio cada 1 hora
+        setInterval(() => {
+            mostrarNotificacion("Estudios SPA", "¡Hora de repasar tus preguntas!");
+        }, 60000); // 3600000 ms = 1 hora
+
+        /** -----------  Permisos General ------------ */
+
         if ("serviceWorker" in navigator) {
             navigator.serviceWorker.register("sw.js")
                 .then(() => console.log("Service Worker registrado"));
         }
+
+        if ("Notification" in window) {
+            Notification.requestPermission().then(permission => {
+                if (permission === "granted") {
+                    console.log("Notificaciones permitidas");
+                }
+            });
+        }
+
     </script>
 
 </body>
