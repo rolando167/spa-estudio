@@ -5760,7 +5760,7 @@ const estudios = [
                     },
                     {
                         "pregunta": "¿Qué es la recursividad?",
-                        "respuesta": "Es una técnica de programación que consiste en que una función se llama así misma",
+                        "respuesta": "Es una técnica de programación que consiste en que una función se llama así misma. Ejemplo El factorial de 5 (5!) es =(5x4x3x2x1=120).",
                         "color": "#c3ccc9ff"
                     },
                     {
