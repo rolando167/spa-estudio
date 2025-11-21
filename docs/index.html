@@ -210,26 +210,6 @@
             }
         }
 
-        function toast(msg) {
-            const t = document.createElement("div");
-            t.innerText = msg;
-            Object.assign(t.style, {
-                position: "fixed", bottom: "20px", right: "20px",
-                background: "#222", color: "#0f0",
-                padding: "15px", borderRadius: "10px",
-                opacity: "0", transition: "opacity 0.5s"
-            });
-            document.body.appendChild(t);
-            requestAnimationFrame(() => t.style.opacity = 1);
-            setTimeout(() => {
-                t.style.opacity = 0;
-                setTimeout(() => t.remove(), 500);
-            }, 3000);
-        }
-
-        toast("Hora de estudiar!");
-
-
         // Ejemplo: recordatorio cada 1 hora
         // setInterval(() => {
         //     mostrarNotificacion("Estudios SPA", "¡Hora de repasar tus preguntas!");
