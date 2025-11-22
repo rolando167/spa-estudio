@@ -1,6 +1,6 @@
 const datos = {
     "fecha": "22-11-2025",
-    "hora": "14:06:35",
+    "hora": "14:45:48",
     "estudios": [
         {
             "id": "1",
@@ -5278,6 +5278,153 @@ const datos = {
                             "color": "#c3ccc9ff"
                         }
                     ]
+                },
+                {
+                    "id": "5137",
+                    "nombre": "Test 1 - Nacionalidad Española",
+                    "estrella": "⭐⭐",
+                    "color": "#fb1313",
+                    "preguntas": [
+                        {
+                            "pregunta": "¿Cuántas religiones oficiales hay en España?",
+                            "respuesta": "Ninguna.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué fuerza de seguridad está en toda España?",
+                            "respuesta": "La Guardia Civil.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Quie´n modera el funcionamiento de las instituciones espan~olas?",
+                            "respuesta": "El Rey.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Quién dirige la administración militar de España?",
+                            "respuesta": "El Gobierno.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Las Cortes Generales representan _______.",
+                            "respuesta": "al pueblo español.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuántas comunidades autónomas hay en España?",
+                            "respuesta": "17",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cómo se llama el rey de España?",
+                            "respuesta": "Felipe VI",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Las relaciones internacionales son competencia de _________.",
+                            "respuesta": "El Estado.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cua´l es el o´rgano superior del poder ejecutivo?",
+                            "respuesta": "El Gobierno.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cómo se llama la organización que defiende los intereses de los trabajadores?",
+                            "respuesta": "Sindicato.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Se puede limitar a una persona el derecho a entrar y salir libremente de España por motivos ideológicos.",
+                            "respuesta": "Falso",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La edad mínima para contraer matrimonio en España es de 12 años.",
+                            "respuesta": "Falso",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Los poderes públicos garantizan la defensa de los consumidores.",
+                            "respuesta": "Verdadero",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cómo se llama la extensa llanura situada en el centro de la península ibérica?",
+                            "respuesta": "Meseta",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "En el norte de África están Ceuta y _________.",
+                            "respuesta": "Melilla",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál es la moneda común en muchos países de la Unión Europea?",
+                            "respuesta": "El euro",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Dónde se celebra un famoso festival de cine?",
+                            "respuesta": "en San Sebastián",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El escritor Miguel de Cervantes nació en _________.",
+                            "respuesta": "Alcalá de Henares.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Dónde se tramita la tarjeta sanitaria?",
+                            "respuesta": "En el centro de salud.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "En una comunidad de vecinos",
+                            "respuesta": "una de las normas es _______., no molestar con ruido",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué tipo de impuestos tienen que pagar los ciudadanos en España?",
+                            "respuesta": "Impuestos directos e indirectos.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿A qué hora se cena normalmente en España?",
+                            "respuesta": "A las 21 o 22 h.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Si compramos una botella de agua de 750 ml  estamos comprando una botella de _______.",
+                            "respuesta": "tres cuartos de litro",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál es el límite de velocidad en autopista?",
+                            "respuesta": "120 km\/h.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Los convenios colectivos de una empresa son los que se firman con los representantes de los trabajadores sobre _____.",
+                            "respuesta": "Las condiciones laborales.",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
+                },
+                {
+                    "id": "5138",
+                    "nombre": "Test 2 - Nacionalidad Española",
+                    "estrella": "",
+                    "color": "#bbb9b9",
+                    "preguntas": []
+                },
+                {
+                    "id": "5139",
+                    "nombre": "Test 3 - Nacionalidad Española",
+                    "estrella": "",
+                    "color": "#bbb9b9",
+                    "preguntas": []
                 }
             ]
         },
