@@ -1,6 +1,6 @@
 const datos = {
     "fecha": "22-11-2025",
-    "hora": "12:23:34",
+    "hora": "12:44:19",
     "estudios": [
         {
             "id": "1",
@@ -2259,452 +2259,6 @@ const datos = {
                     ]
                 },
                 {
-                    "id": "50",
-                    "nombre": "Arquitecturas de computación",
-                    "estrella": "",
-                    "color": "#cde4ddff",
-                    "preguntas": [
-                        {
-                            "pregunta": "Von Neumann",
-                            "respuesta": "Arquitectura donde programas y datos comparten la misma memoria.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Harvard",
-                            "respuesta": "Arquitectura que separa la memoria de instrucciones de la de datos.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Cliente-Servidor",
-                            "respuesta": "Modelo donde un servidor central atiende las peticiones de múltiples clientes.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "P2P (Peer-to-Peer)",
-                            "respuesta": "Arquitectura de red donde todos los nodos actúan como clientes y servidores a la vez.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Microservicios",
-                            "respuesta": "Estilo de arquitectura donde las aplicaciones se dividen en servicios independientes.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Monolítica",
-                            "respuesta": "Aplicación construida como un único bloque de código.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "SOA (Service-Oriented Architecture)",
-                            "respuesta": "Arquitectura basada en servicios que se comunican entre sí.",
-                            "color": "#c3ccc9ff"
-                        }
-                    ]
-                },
-                {
-                    "id": "51",
-                    "nombre": "Estructuras de datos",
-                    "estrella": "",
-                    "color": "#cde4ddff",
-                    "preguntas": [
-                        {
-                            "pregunta": "Array",
-                            "respuesta": "Colección de elementos en posiciones contiguas de memoria.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Lista enlazada",
-                            "respuesta": "Conjunto de nodos donde cada uno apunta al siguiente.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Pila (Stack)",
-                            "respuesta": "Estructura LIFO (último en entrar",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Cola (Queue)",
-                            "respuesta": "Estructura FIFO (primero en entrar",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Árbol binario",
-                            "respuesta": "Estructura jerárquica donde cada nodo tiene máximo dos hijos.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Árbol B",
-                            "respuesta": "Estructura usada en bases de datos para optimizar búsquedas.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Grafo",
-                            "respuesta": "Conjunto de nodos conectados por aristas.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Hash Table",
-                            "respuesta": "Estructura que asocia claves únicas con valores.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Heap",
-                            "respuesta": "Árbol binario usado para implementar colas de prioridad.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Trie",
-                            "respuesta": "Árbol especializado para almacenar cadenas o prefijos.",
-                            "color": "#c3ccc9ff"
-                        }
-                    ]
-                },
-                {
-                    "id": "52",
-                    "nombre": "Algoritmos",
-                    "estrella": "",
-                    "color": "#cde4ddff",
-                    "preguntas": [
-                        {
-                            "pregunta": "Burbuja (Bubble Sort)",
-                            "respuesta": "Algoritmo de ordenamiento que compara pares de elementos adyacentes y los intercambia si están en orden incorrecto.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Quicksort",
-                            "respuesta": "Algoritmo de ordenamiento que usa el método de “divide y vencerás” seleccionando un pivote.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Merge Sort",
-                            "respuesta": "Algoritmo que divide la lista en mitades",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Búsqueda binaria",
-                            "respuesta": "Algoritmo que busca en una lista ordenada dividiéndola a la mitad en cada paso.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "DFS (Depth-First Search)",
-                            "respuesta": "Algoritmo de búsqueda en grafos que explora tan profundo como sea posible antes de retroceder.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "BFS (Breadth-First Search)",
-                            "respuesta": "Algoritmo que explora un grafo nivel por nivel (amplitud primero).",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Dijkstra",
-                            "respuesta": "Algoritmo para encontrar el camino más corto en un grafo ponderado.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Algoritmo de Euclides",
-                            "respuesta": "Método para calcular el máximo común divisor (MCD).",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Recursión",
-                            "respuesta": "Técnica donde una función se llama a sí misma para resolver un problema más pequeño.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Programación dinámica",
-                            "respuesta": "Técnica que resuelve problemas optimizando subproblemas repetidos.",
-                            "color": "#c3ccc9ff"
-                        }
-                    ]
-                },
-                {
-                    "id": "53",
-                    "nombre": "Pruebas de software",
-                    "estrella": "",
-                    "color": "#cde4ddff",
-                    "preguntas": [
-                        {
-                            "pregunta": "Prueba unitaria (Unit Test)",
-                            "respuesta": "Evalúa una función o componente aislado.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Prueba de integración",
-                            "respuesta": "Verifica que diferentes módulos funcionen juntos correctamente.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Prueba funcional",
-                            "respuesta": "Comprueba que el software cumpla los requisitos establecidos.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Prueba de regresión",
-                            "respuesta": "Garantiza que un cambio en el código no rompa funcionalidades previas.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Prueba de sistema",
-                            "respuesta": "Evalúa el sistema completo como un todo.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Prueba de aceptación (UAT)",
-                            "respuesta": "Se realiza con el cliente para validar el software antes de su entrega.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Prueba de carga",
-                            "respuesta": "Evalúa el rendimiento bajo un número esperado de usuarios.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Prueba de estrés",
-                            "respuesta": "Pone el sistema en condiciones extremas para ver hasta dónde resiste.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Caja negra",
-                            "respuesta": "Prueba sin conocer el código interno",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Caja blanca",
-                            "respuesta": "Prueba conociendo la lógica interna del código.",
-                            "color": "#c3ccc9ff"
-                        }
-                    ]
-                },
-                {
-                    "id": "54",
-                    "nombre": "Diagramas de análisis de software",
-                    "estrella": "",
-                    "color": "#cde4ddff",
-                    "preguntas": [
-                        {
-                            "pregunta": "Diagrama de casos de uso",
-                            "respuesta": "Muestra cómo los usuarios (actores) interactúan con el sistema y qué funcionalidades están disponibles.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Diagrama de clases",
-                            "respuesta": "Representa las clases",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Diagrama de secuencia",
-                            "respuesta": "Explica cómo los objetos se comunican entre sí a lo largo del tiempo.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Diagrama de actividades",
-                            "respuesta": "Describe flujos de trabajo o procesos dentro del sistema.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Diagrama de estados",
-                            "respuesta": "Muestra los diferentes estados por los que pasa un objeto y cómo cambia entre ellos.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Diagrama de componentes",
-                            "respuesta": "Representa los módulos principales de un sistema y sus interacciones.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Diagrama de despliegue",
-                            "respuesta": "Muestra cómo el software se distribuye en la infraestructura (servidores",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Diagrama de paquetes",
-                            "respuesta": "Organiza clases o elementos de software en grupos lógicos.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Diagrama entidad-relación (ER)",
-                            "respuesta": "Modelo que muestra entidades de datos y relaciones entre ellas",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Diagrama de flujo de datos (DFD)",
-                            "respuesta": "Representa cómo los datos se mueven a través de un sistema.",
-                            "color": "#c3ccc9ff"
-                        }
-                    ]
-                },
-                {
-                    "id": "55",
-                    "nombre": "Elementos importantes de la tabla periódica",
-                    "estrella": "",
-                    "color": "#bbb9b9",
-                    "preguntas": [
-                        {
-                            "pregunta": "Hidrógeno (H)",
-                            "respuesta": "Elemento más ligero y abundante del universo",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Helio (He)",
-                            "respuesta": "Gas noble muy ligero",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Carbono (C)",
-                            "respuesta": "Elemento esencial para la vida",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Nitrógeno (N)",
-                            "respuesta": "Gas que constituye el 78% del aire que respiramos.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Oxígeno (O)",
-                            "respuesta": "Gas vital para la respiración de los seres vivos.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Sodio (Na)",
-                            "respuesta": "Metal alcalino",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Magnesio (Mg)",
-                            "respuesta": "Metal ligero",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Aluminio (Al)",
-                            "respuesta": "Metal muy usado en envases",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Silicio (Si)",
-                            "respuesta": "Semimetal clave en la fabricación de chips electrónicos.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Fósforo (P)",
-                            "respuesta": "Elemento esencial en el ADN y fertilizantes.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Azufre (S)",
-                            "respuesta": "Elemento amarillo",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Cloro (Cl)",
-                            "respuesta": "Gas usado en desinfección y parte de la sal común.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Potasio (K)",
-                            "respuesta": "Metal esencial para la función nerviosa y muscular.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Calcio (Ca)",
-                            "respuesta": "Mineral fundamental en huesos y dientes.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Hierro (Fe)",
-                            "respuesta": "Metal clave en la sangre (hemoglobina) y construcción.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Cobre (Cu)",
-                            "respuesta": "Metal conductor de electricidad",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Zinc (Zn)",
-                            "respuesta": "Metal usado en aleaciones y en el sistema inmunológico.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Plata (Ag)",
-                            "respuesta": "Metal precioso",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Oro (Au)",
-                            "respuesta": "Metal precioso",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Mercurio (Hg)",
-                            "respuesta": "Único metal líquido a temperatura ambiente",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Plomo (Pb)",
-                            "respuesta": "Metal pesado tóxico",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Uranio (U)",
-                            "respuesta": "Metal radiactivo",
-                            "color": "#c3ccc9ff"
-                        }
-                    ]
-                },
-                {
-                    "id": "56",
-                    "nombre": "Planetas del Sistema Solar",
-                    "estrella": "",
-                    "color": "#cde4ddff",
-                    "preguntas": [
-                        {
-                            "pregunta": "Mercurio",
-                            "respuesta": "Planeta más cercano al Sol",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Venus",
-                            "respuesta": "Planeta similar en tamaño a la Tierra",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Tierra",
-                            "respuesta": "Único planeta conocido con vida",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Marte",
-                            "respuesta": "El “planeta rojo”",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Júpiter",
-                            "respuesta": "El planeta más grande del sistema solar",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Saturno",
-                            "respuesta": "Gigante gaseoso famoso por sus anillos.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Urano",
-                            "respuesta": "Planeta helado con un eje de rotación inclinado de casi 90°.",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Neptuno",
-                            "respuesta": "Planeta más lejano al Sol",
-                            "color": "#c3ccc9ff"
-                        },
-                        {
-                            "pregunta": "Plutón",
-                            "respuesta": "Planeta enano helado del cinturón de Kuiper, antes considerado el noveno planeta.",
-                            "color": "#c3ccc9ff"
-                        }
-                    ]
-                },
-                {
                     "id": "57",
                     "nombre": "Palabras clave SQL Server",
                     "estrella": "",
@@ -3154,6 +2708,281 @@ const datos = {
                         {
                             "pregunta": "API",
                             "respuesta": "Interfaz que permite comunicación entre programas.",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
+                },
+                {
+                    "id": "50",
+                    "nombre": "Arquitecturas de computación",
+                    "estrella": "",
+                    "color": "#cde4ddff",
+                    "preguntas": [
+                        {
+                            "pregunta": "Von Neumann",
+                            "respuesta": "Arquitectura donde programas y datos comparten la misma memoria.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Harvard",
+                            "respuesta": "Arquitectura que separa la memoria de instrucciones de la de datos.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Cliente-Servidor",
+                            "respuesta": "Modelo donde un servidor central atiende las peticiones de múltiples clientes.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "P2P (Peer-to-Peer)",
+                            "respuesta": "Arquitectura de red donde todos los nodos actúan como clientes y servidores a la vez.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Microservicios",
+                            "respuesta": "Estilo de arquitectura donde las aplicaciones se dividen en servicios independientes.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Monolítica",
+                            "respuesta": "Aplicación construida como un único bloque de código.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "SOA (Service-Oriented Architecture)",
+                            "respuesta": "Arquitectura basada en servicios que se comunican entre sí.",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
+                },
+                {
+                    "id": "51",
+                    "nombre": "Estructuras de datos",
+                    "estrella": "",
+                    "color": "#cde4ddff",
+                    "preguntas": [
+                        {
+                            "pregunta": "Array",
+                            "respuesta": "Colección de elementos en posiciones contiguas de memoria.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Lista enlazada",
+                            "respuesta": "Conjunto de nodos donde cada uno apunta al siguiente.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Pila (Stack)",
+                            "respuesta": "Estructura LIFO (último en entrar",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Cola (Queue)",
+                            "respuesta": "Estructura FIFO (primero en entrar",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Árbol binario",
+                            "respuesta": "Estructura jerárquica donde cada nodo tiene máximo dos hijos.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Árbol B",
+                            "respuesta": "Estructura usada en bases de datos para optimizar búsquedas.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Grafo",
+                            "respuesta": "Conjunto de nodos conectados por aristas.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Hash Table",
+                            "respuesta": "Estructura que asocia claves únicas con valores.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Heap",
+                            "respuesta": "Árbol binario usado para implementar colas de prioridad.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Trie",
+                            "respuesta": "Árbol especializado para almacenar cadenas o prefijos.",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
+                },
+                {
+                    "id": "52",
+                    "nombre": "Algoritmos",
+                    "estrella": "",
+                    "color": "#cde4ddff",
+                    "preguntas": [
+                        {
+                            "pregunta": "Burbuja (Bubble Sort)",
+                            "respuesta": "Algoritmo de ordenamiento que compara pares de elementos adyacentes y los intercambia si están en orden incorrecto.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Quicksort",
+                            "respuesta": "Algoritmo de ordenamiento que usa el método de “divide y vencerás” seleccionando un pivote.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Merge Sort",
+                            "respuesta": "Algoritmo que divide la lista en mitades",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Búsqueda binaria",
+                            "respuesta": "Algoritmo que busca en una lista ordenada dividiéndola a la mitad en cada paso.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "DFS (Depth-First Search)",
+                            "respuesta": "Algoritmo de búsqueda en grafos que explora tan profundo como sea posible antes de retroceder.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "BFS (Breadth-First Search)",
+                            "respuesta": "Algoritmo que explora un grafo nivel por nivel (amplitud primero).",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Dijkstra",
+                            "respuesta": "Algoritmo para encontrar el camino más corto en un grafo ponderado.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Algoritmo de Euclides",
+                            "respuesta": "Método para calcular el máximo común divisor (MCD).",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Recursión",
+                            "respuesta": "Técnica donde una función se llama a sí misma para resolver un problema más pequeño.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Programación dinámica",
+                            "respuesta": "Técnica que resuelve problemas optimizando subproblemas repetidos.",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
+                },
+                {
+                    "id": "53",
+                    "nombre": "Pruebas de software",
+                    "estrella": "",
+                    "color": "#cde4ddff",
+                    "preguntas": [
+                        {
+                            "pregunta": "Prueba unitaria (Unit Test)",
+                            "respuesta": "Evalúa una función o componente aislado.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Prueba de integración",
+                            "respuesta": "Verifica que diferentes módulos funcionen juntos correctamente.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Prueba funcional",
+                            "respuesta": "Comprueba que el software cumpla los requisitos establecidos.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Prueba de regresión",
+                            "respuesta": "Garantiza que un cambio en el código no rompa funcionalidades previas.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Prueba de sistema",
+                            "respuesta": "Evalúa el sistema completo como un todo.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Prueba de aceptación (UAT)",
+                            "respuesta": "Se realiza con el cliente para validar el software antes de su entrega.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Prueba de carga",
+                            "respuesta": "Evalúa el rendimiento bajo un número esperado de usuarios.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Prueba de estrés",
+                            "respuesta": "Pone el sistema en condiciones extremas para ver hasta dónde resiste.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Caja negra",
+                            "respuesta": "Prueba sin conocer el código interno",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Caja blanca",
+                            "respuesta": "Prueba conociendo la lógica interna del código.",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
+                },
+                {
+                    "id": "54",
+                    "nombre": "Diagramas de análisis de software",
+                    "estrella": "",
+                    "color": "#cde4ddff",
+                    "preguntas": [
+                        {
+                            "pregunta": "Diagrama de casos de uso",
+                            "respuesta": "Muestra cómo los usuarios (actores) interactúan con el sistema y qué funcionalidades están disponibles.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Diagrama de clases",
+                            "respuesta": "Representa las clases",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Diagrama de secuencia",
+                            "respuesta": "Explica cómo los objetos se comunican entre sí a lo largo del tiempo.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Diagrama de actividades",
+                            "respuesta": "Describe flujos de trabajo o procesos dentro del sistema.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Diagrama de estados",
+                            "respuesta": "Muestra los diferentes estados por los que pasa un objeto y cómo cambia entre ellos.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Diagrama de componentes",
+                            "respuesta": "Representa los módulos principales de un sistema y sus interacciones.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Diagrama de despliegue",
+                            "respuesta": "Muestra cómo el software se distribuye en la infraestructura (servidores",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Diagrama de paquetes",
+                            "respuesta": "Organiza clases o elementos de software en grupos lógicos.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Diagrama entidad-relación (ER)",
+                            "respuesta": "Modelo que muestra entidades de datos y relaciones entre ellas",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Diagrama de flujo de datos (DFD)",
+                            "respuesta": "Representa cómo los datos se mueven a través de un sistema.",
                             "color": "#c3ccc9ff"
                         }
                     ]
@@ -5063,6 +4892,389 @@ const datos = {
                         {
                             "pregunta": "write down",
                             "respuesta": "anotar",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "nombre": "Obligado",
+            "color": "red",
+            "examenes": [
+                {
+                    "id": "8",
+                    "nombre": "Maravillas del Mundo Modernas",
+                    "estrella": "⭐⭐",
+                    "color": "#3cf816",
+                    "preguntas": [
+                        {
+                            "pregunta": "La Gran Muralla china",
+                            "respuesta": "China",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Petra",
+                            "respuesta": "En Jordania",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El Coliseo o Anfiteatro Flavio",
+                            "respuesta": "Roma, Italia.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Palacio de Taj Maha",
+                            "respuesta": "Agra, India.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Cristo Redentor",
+                            "respuesta": "Rio de janeiro, Brasil.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Chichen Itza",
+                            "respuesta": "En Yucatán, México",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Machu Picchu",
+                            "respuesta": "Cusco, Perú.",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
+                },
+                {
+                    "id": "9",
+                    "nombre": "Maravillas del Mundo Antiguas",
+                    "estrella": "",
+                    "color": "#54f000",
+                    "preguntas": [
+                        {
+                            "pregunta": "Pirámide de Guiza o Keops",
+                            "respuesta": "El Cairo, Egipto.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Jardines Colgantes de Babilonia",
+                            "respuesta": "Babilonia, Irak.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Mausoleo de Halicarnaso",
+                            "respuesta": "Bodrum, Turquía.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Templo de Artemisa (Éfeso)",
+                            "respuesta": "Selçuk, Turquía.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Faro de Alejandría",
+                            "respuesta": "Isla de Faro Alejandría, Egipto.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Coloso de Rodas",
+                            "respuesta": "Rodas, Grecia.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Estatua de Zéus",
+                            "respuesta": "Olimpia, Grecia.",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
+                },
+                {
+                    "id": "10",
+                    "nombre": "Banderas en la playa",
+                    "estrella": "⭐",
+                    "color": "#0ab6ff",
+                    "preguntas": [
+                        {
+                            "pregunta": "Verde",
+                            "respuesta": "Permitido Bañarse",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Amarilla",
+                            "respuesta": "Precaución en el Baño",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Roja",
+                            "respuesta": "Prohibido el baño",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Negra",
+                            "respuesta": "Playa Clausurada, mal estado arena\/agua",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Azul",
+                            "respuesta": "Plaza certificada calidad agua, socorrismo etc",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
+                },
+                {
+                    "id": "15",
+                    "nombre": "Conceptos economía - básicos",
+                    "estrella": "⭐",
+                    "color": "#904747",
+                    "preguntas": [
+                        {
+                            "pregunta": "Economía",
+                            "respuesta": "Ciencia que estudia cómo se administran los recursos escasos para satisfacer necesidades",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Inflación",
+                            "respuesta": "Aumento generalizado y sostenido de los precios en una economía",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Deflación",
+                            "respuesta": "Descenso generalizado y sostenido de los precios",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Oferta",
+                            "respuesta": "Cantidad de bienes o servicios que los productores están dispuestos a vender a un precio determinado",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Demanda",
+                            "respuesta": "Cantidad de bienes o servicios que los consumidores desean adquirir a un precio determinado",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Mercado",
+                            "respuesta": "Lugar físico o virtual donde interactúan compradores y vendedores",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Impuesto",
+                            "respuesta": "Pago obligatorio al Estado que financia el gasto público",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Déficit",
+                            "respuesta": "Situación en la que los gastos superan a los ingresos",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Superávit",
+                            "respuesta": "Situación en la que los ingresos superan a los gastos",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "PIB (Producto Interior Bruto)",
+                            "respuesta": "Valor total de los bienes y servicios producidos en un país en un periodo de tiempo",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "PNB (Producto Nacional Bruto)",
+                            "respuesta": "Valor de lo producido por los ciudadanos de un país, dentro o fuera de su territorio",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Recesión",
+                            "respuesta": "Disminución de la actividad económica durante al menos dos trimestres consecutivos",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Ciclo económico",
+                            "respuesta": "Alternancia entre fases de crecimiento y recesión en la economía",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Arancel",
+                            "respuesta": "Impuesto aplicado a los bienes importados",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Salario",
+                            "respuesta": "Pago recibido por un trabajador a cambio de su trabajo",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Capital",
+                            "respuesta": "Conjunto de recursos financieros o materiales utilizados para producir bienes y servicios",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Bienes de consumo",
+                            "respuesta": "Productos destinados a la satisfacción directa de necesidades",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Bienes de capital",
+                            "respuesta": "Bienes utilizados para producir otros bienes (ej. maquinaria)",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Monopolio",
+                            "respuesta": "Situación en la que un único vendedor controla todo el mercado",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Competencia perfecta",
+                            "respuesta": "Mercado en el que muchos vendedores y compradores participan sin que ninguno controle el precio",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
+                },
+                {
+                    "id": "36",
+                    "nombre": "Fechas importantes Perú #1",
+                    "estrella": "⭐",
+                    "color": "#ff2e2e",
+                    "preguntas": [
+                        {
+                            "pregunta": "1 de enero",
+                            "respuesta": "Año Nuevo.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "1 de mayo",
+                            "respuesta": "Día del Trabajo.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "7 de junio",
+                            "respuesta": "Día de la Bandera (conmemora la Batalla de Arica).",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "23 de julio",
+                            "respuesta": "Día de la Fuerza Aérea del Perú.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "28 y 29 de julio",
+                            "respuesta": "Fiestas Patrias (Día de la Independencia).",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "6 de agosto",
+                            "respuesta": "Batalla de Junín.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "30 de agosto",
+                            "respuesta": "Día de Santa Rosa de Lima.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "8 de octubre",
+                            "respuesta": "Combate de Angamos.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "9 de diciembre",
+                            "respuesta": "Batalla de Ayacucho y Día del Ejército del Perú.",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
+                },
+                {
+                    "id": "37",
+                    "nombre": "Fechas importantes Perú #2",
+                    "estrella": "⭐",
+                    "color": "#d62e2e",
+                    "preguntas": [
+                        {
+                            "pregunta": "18 y 19 de octubre",
+                            "respuesta": "Fiestas del Señor de los Milagros.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "2 de agosto",
+                            "respuesta": "Día del Cajón Peruano.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "17 de agosto",
+                            "respuesta": "Muerte del general José de San Martín.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "26 de agosto",
+                            "respuesta": "Día del Adulto Mayor o del Abuelo.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "23 de agosto",
+                            "respuesta": "Día del Café Peruano.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "28 de agosto",
+                            "respuesta": "Día de la Reincorporación de Tacna al Perú.",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
+                },
+                {
+                    "id": "38",
+                    "nombre": "Fechas importantes Perú #3",
+                    "estrella": "",
+                    "color": "#cd9898",
+                    "preguntas": [
+                        {
+                            "pregunta": "Día Internacional de la Mujer",
+                            "respuesta": "8 de marzo",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Día de la Tierra",
+                            "respuesta": "22 de abril",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Día Internacional del Trabajo",
+                            "respuesta": "1 de mayo",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Día Mundial del Medio Ambiente",
+                            "respuesta": "5 de junio",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Día Internacional de la Paz",
+                            "respuesta": "21 de septiembre",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Día Mundial de la Alimentación",
+                            "respuesta": "16 de octubre",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Día Internacional de los Derechos Humanos",
+                            "respuesta": "10 de diciembre",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Año Nuevo",
+                            "respuesta": "1 de enero",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Navidad",
+                            "respuesta": "25 de diciembre",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Día Internacional de la Juventud",
+                            "respuesta": "12 de agosto",
                             "color": "#c3ccc9ff"
                         }
                     ]
