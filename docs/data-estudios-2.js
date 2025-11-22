@@ -1,6 +1,6 @@
 const datos = {
     "fecha": "22-11-2025",
-    "hora": "14:45:48",
+    "hora": "15:23:45",
     "estudios": [
         {
             "id": "1",
@@ -5417,7 +5417,68 @@ const datos = {
                     "nombre": "Test 2 - Nacionalidad Española",
                     "estrella": "",
                     "color": "#bbb9b9",
-                    "preguntas": []
+                    "preguntas": [
+                        {
+                            "pregunta": "El castellano o español es lengua oficial  ________.",
+                            "respuesta": "en toda España.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Dónde está la sede del Gobierno de España?",
+                            "respuesta": "en Madrid.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál de los siguientes cuerpos forma parte de las Fuerzas Armadas de España?",
+                            "respuesta": "el Ejército del Aire.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿En qué año se aprobó la Constitución española?",
+                            "respuesta": "En 1978.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Quién aprueba los presupuestos generales del Estado?",
+                            "respuesta": "Las Cortes Generales.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Quién puede presentar una queja al Defensor del Pueblo?",
+                            "respuesta": "Todos los ciudadanos, españoles o extranjeros.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "España está organizada en _________.",
+                            "respuesta": "comunidades autónomas",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El poder ejecutivo corresponde __________.",
+                            "respuesta": "Al Gobierno del Estado.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Quiénes forman el gobierno de las comunidades autónomas?",
+                            "respuesta": "El presidente y los consejeros.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿A quiénes se elige en las elecciones generales?",
+                            "respuesta": "a los senadores y diputados",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Los jóvenes tienen derecho a participar libremente en el desarrollo político del país.",
+                            "respuesta": "Verdadero",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La libertad de prensa está limitada por el respeto al honor de las personas.",
+                            "respuesta": "Verdadero.",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
                 },
                 {
                     "id": "5139",
