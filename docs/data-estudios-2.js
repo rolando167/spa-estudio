@@ -1,6 +1,6 @@
 const datos = {
     "fecha": "22-11-2025",
-    "hora": "13:00:10",
+    "hora": "14:06:35",
     "estudios": [
         {
             "id": "1",
@@ -6281,6 +6281,529 @@ const datos = {
                         {
                             "pregunta": "¿Qué es FIFO 'First In, First Out'?",
                             "respuesta": "Primero en entrar, primero en salir, Se aplica a las colas, donde el primer elemento en llegar es el primero en ser procesado, similar a una fila de personas.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Law of Demeter",
+                            "respuesta": "No navegar objetos en cadena; reducir knowledge coupling.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Composition over inheritance",
+                            "respuesta": "Más flexible y menos frágil que herencia profunda.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Adapter pattern",
+                            "respuesta": "Adaptar una interfaz existente a la esperada.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Decorator pattern",
+                            "respuesta": "Añadir comportamiento dinámico a objetos.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "MVC componentes",
+                            "respuesta": "Model datos, View UI, Controller lógica.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "TDD impacto",
+                            "respuesta": "Mejora diseño y testabilidad del código.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Diseñar API estable",
+                            "respuesta": "Versionado y evitar breaking changes.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Anti-patterns comunes",
+                            "respuesta": "God Object, Big Ball of Mud, Primitive Obsession.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Interface Segregation",
+                            "respuesta": "ejemplo Interfaces pequeñas y específicas.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Service vs Repository Repo:",
+                            "respuesta": "persistencia; Service: lógica de negocio.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Prototype pattern",
+                            "respuesta": "Clonar prototipo para crear instancias.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Documentar contratos en interfaces",
+                            "respuesta": "Usar JavaDoc y ejemplos claros",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué son las colecciones en java?",
+                            "respuesta": "Son estructuras de datos dinámicas que almacenan grupos de objetos de forma eficiente, permitiendo agregar, eliminar y manipular elementos fácilmente.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "ArrayList vs LinkedList",
+                            "respuesta": "ArrayList mejor para acceso; LinkedList para inserciones\/remociones frecuentes.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "HashMap vs TreeMap",
+                            "respuesta": "HashMap sin orden y O(1) promedio; TreeMap ordenado O(log n).",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "ConcurrentHashMap vs synchronizedMap",
+                            "respuesta": "ConcurrentHashMap escalable; synchronizedMap bloquea todo.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Load factor en HashMap",
+                            "respuesta": "Determina cuándo rehash; por defecto 0.75.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cómo funciona HashSet?",
+                            "respuesta": "Basado en HashMap con valor dummy.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Queue vs Deque",
+                            "respuesta": "Queue FIFO; Deque doble extremo.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Iterar colecciones grandes",
+                            "respuesta": "Iterator o for-each; evitar convertir innecesariamente.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "ConcurrentLinkedQueue uso",
+                            "respuesta": "Cola lock-free para alto throughput.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "CopyOnWriteArrayList caso de uso",
+                            "respuesta": "Many reads, few writes.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Enumeration vs Iterator",
+                            "respuesta": "Iterator moderno con remove(); Enumeration legacy.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Por qué no usar Hashtable?",
+                            "respuesta": "Legacy y sincronizada; usar alternativas modernas.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "LinkedHashMap orden",
+                            "respuesta": "Mantiene inserción o acceso.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Implementar LRU con LinkedHashMap",
+                            "respuesta": "Sobrescribir removeEldestEntry.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Backing array en ArrayList",
+                            "respuesta": "Copia al crecer; init capacity si se conoce tamaño.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Arrays.asList limitaciones",
+                            "respuesta": "Lista de tamaño fijo respaldada por array.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "WeakHashMap uso",
+                            "respuesta": "Cache sin prevenir GC de claves.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "computeIfAbsent vs putIfAbsent",
+                            "respuesta": "computeIfAbsent crea lazy; putIfAbsent simplemente inserta si falta.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Boxing impacto en colecciones",
+                            "respuesta": "Wrapper objects afectan GC y rendimiento.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Arrays vs Collections rendimiento",
+                            "respuesta": "Arrays más eficientes; Collections más flexibles.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "PriorityQueue complejidad",
+                            "respuesta": "insert\/extract O(log n); peek O(1).",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "NavigableMap métodos útiles",
+                            "respuesta": "floorEntry\/higherEntry para navegación.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Collectors.groupingBy uso",
+                            "respuesta": "Agrupar stream por clave.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Spliterator ventaja",
+                            "respuesta": "Particionar para paralelismo en streams.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Evitar ConcurrentModificationException",
+                            "respuesta": "usar iterator.remove() o colecciones concurrentes.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué es la concurrencia 'Concurrency'?",
+                            "respuesta": "Es la capacidad de un programa para manejar varias tareas al mismo tiempo",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué es multithreading?",
+                            "respuesta": "es una técnica específica para lograr esa concurrencia, ejecutando múltiples hilos de ejecución dentro de un único proceso. Mejora el rendimiento: Permite realizar tareas en segundo plano sin bloquear la interfaz de usuario. Permite el paralelismo.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Runnable vs Callable vs Future",
+                            "respuesta": "Runnable no retorna; Callable retorna valor; Future representa resultado async.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "synchronized vs ReentrantLock",
+                            "respuesta": "ReentrantLock ofrece control fino (tryLock, fairness).",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "volatile uso y limitaciones",
+                            "respuesta": "Visibilidad garantizada; no atómico para operaciones compuestas.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Deadlock: prevención",
+                            "respuesta": "Ordenar adquisición de locks o usar tryLock con timeout.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Livelock vs Deadlock",
+                            "respuesta": "Livelock hilos activos sin progreso; deadlock hilos bloqueados.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "CountDownLatch vs CyclicBarrier",
+                            "respuesta": "CountDownLatch one-shot; CyclicBarrier reusable.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "ForkJoinPool uso",
+                            "respuesta": "Divide tareas recursivas; work-stealing.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "CompletableFuture composición",
+                            "respuesta": "Encadenar async tasks sin bloquear.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "ThreadLocal y limpieza",
+                            "respuesta": "Llamar remove() al terminar si se usan pools.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Configurar ThreadPoolExecutor",
+                            "respuesta": "Ajustar core\/max pool, queue y handler según carga.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Happens-before en JMM",
+                            "respuesta": "Garantiza orden y visibilidad entre threads con rules.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Depuración: herramientas",
+                            "respuesta": "Thread dumps, JFR, async-profiler y logging.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Safe publication",
+                            "respuesta": "Usar final fields, volatile o sincronización.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Atomic classes ventaja",
+                            "respuesta": "Operaciones atómicas sin locks (AtomicInteger).",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Producer-consumer con BlockingQueue",
+                            "respuesta": "Usar put\/take para comunicación segura.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "False sharing y mitigación",
+                            "respuesta": "Padding o @Contended para evitar cache line sharing.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Fairness tradeoffs",
+                            "respuesta": "Fair locks evitan starvation pero reducen throughput.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Spinlocks: tradeoffs",
+                            "respuesta": "Uso solo para esperas muy cortas por coste CPU.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Inmutabilidad y concurrencia",
+                            "respuesta": "Simplifica diseño y evita sincronización.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Interpretar thread dumps",
+                            "respuesta": "Buscar BLOCKED\/WAITING\/LOCKED y stacks relacionados.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Work-stealing explicación",
+                            "respuesta": "Threads roban tareas de otros para balancear.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Evitar starvation",
+                            "respuesta": "Diseño fair o limitación de recursos por hilo.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Parallel streams: uso seguro",
+                            "respuesta": "Sin shared mutable state; favor stateless functions.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Medir throughput y latency",
+                            "respuesta": "JMH y métricas percentiles.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué son Java I\/O y NIO?",
+                            "respuesta": "Son dos paquetes en Java para manejar operaciones de entrada y salida, pero funcionan de manera diferente.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué es Java I\/O?",
+                            "respuesta": "Java I\/O utiliza un modelo de flujo (stream) y opera en modo bloqueante, lo que significa que un hilo se detiene hasta que la operación se completa.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué es Java NIO?",
+                            "respuesta": "Utiliza un modelo basado en buffers (búferes) y puede realizar operaciones de forma no bloqueante, permitiendo que un hilo continúe con otras tareas mientras se completan las operaciones de I\/O, lo que mejora el rendimiento en aplicaciones concurrentes.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "InputStream vs Reader",
+                            "respuesta": "Bytes vs caracteres (encoding).",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "NIO vs IO clásico",
+                            "respuesta": "NIO para non-blocking y performance en servidores.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Files.walk uso",
+                            "respuesta": "Recorrer directorios via stream; cerrar recurso.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Channel vs Buffer",
+                            "respuesta": "Channel: fuente\/destino; Buffer: contenedor de datos.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "MemoryMappedFile uso",
+                            "respuesta": "Mapear archivo en memoria para acceso rápido.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Leer ficheros grandes",
+                            "respuesta": "BufferedReader o FileChannel con buffers.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "try-with-resources en I\/O",
+                            "respuesta": "Cerrar recursos automáticamente.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Serialización personalizada",
+                            "respuesta": "Implementar writeObject\/readObject y serialVersionUID.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "ObjectOutputStream vs DataOutputStream",
+                            "respuesta": "Serializa objetos vs primitivos binarios.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Charset importancia",
+                            "respuesta": "Usar UTF-8 para interoperabilidad.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Ficheros temporales seguros",
+                            "respuesta": "Files.createTempFile y eliminar al terminar.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "transferTo para performance",
+                            "respuesta": "Zero-copy si lo soporta OS y filesystem.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Selector en NIO",
+                            "respuesta": "Monitorear múltiples canales con un hilo.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Detectar EOF correctamente",
+                            "respuesta": "Streams de bytes retornan -1; readers retornan null en readLine.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Flush: cuándo usar",
+                            "respuesta": "Forzar escritura de buffers antes de cerrar o cambiar protocolo.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Procesar CSV grandes",
+                            "respuesta": "Procesar por streaming y librerías optimizadas.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Backpressure en I\/O",
+                            "respuesta": "Colas limitadas y throttling.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "SSL\/TLS en Java sockets",
+                            "respuesta": "Configurar keystore\/truststore y usar SSLEngine para control fino.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Non-blocking channels ejemplo",
+                            "respuesta": "ServerSocketChannel configurado non-blocking + Selector.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Servidor NIO: idea básica",
+                            "respuesta": "Multiplexar conexiones con Selector y channels non-blocking.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Evitar fugas de file descriptors",
+                            "respuesta": "Cerrar resources siempre; monitorizar en producción.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Serialization proxy pattern",
+                            "respuesta": "Usar proxy inmutable para serialización segura.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Leer recursos del classpath",
+                            "respuesta": "ClassLoader.getResourceAsStream(\"file\").",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Buffered streams ventaja",
+                            "respuesta": "Reducen llamadas al sistema y mejoran throughput.",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
+                },
+                {
+                    "id": "5136",
+                    "nombre": "Java - Preguntas General #2",
+                    "estrella": "⭐⭐⭐",
+                    "color": "#1d34e7",
+                    "preguntas": [
+                        {
+                            "pregunta": "Excepciones y manejo de errores",
+                            "respuesta": "En Java, las excepciones son un mecanismo para manejar errores que interrumpen el flujo normal del programa. El manejo se realiza con las palabras clave try, catch, finally, throw y throws",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Suppressed exceptions: qué son?",
+                            "respuesta": "Excepciones generadas al cerrar recursos y suprimidas en favor de la",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Crear excepción personalizada",
+                            "respuesta": "Extender RuntimeException o Exception y añadir constructores.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Por qué no capturar Exception genérica",
+                            "respuesta": "Oculta errores específicos y complica debugging.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Excepciones en hilos: UncaughtExceptionHandler",
+                            "respuesta": "Manejar excepciones no capturadas globalmente con handler.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "throw vs throws",
+                            "respuesta": "throw lanza; throws declara.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Preservar cause al relanzar",
+                            "respuesta": "Usar new RuntimeException(msg, cause) para mantener stack.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Retry logic: backoff",
+                            "respuesta": "Reintentos con backoff exponencial y límites para errores transitorios.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Exception translation",
+                            "respuesta": "Traducir excepciones de bajo nivel a abstracciones de negocio.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Logging de excepciones",
+                            "respuesta": "Incluir stacktrace y contexto sin exponer datos sensibles.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Assert vs throw",
+                            "respuesta": "Assert para development; throw para runtime handling.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Checked exceptions en lambdas",
+                            "respuesta": "Wrappear en RuntimeException o crear helpers.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Diseñar jerarquía de excepciones",
+                            "respuesta": "Base común y subclases específicas por dominio.",
                             "color": "#c3ccc9ff"
                         }
                     ]
