@@ -1,6 +1,6 @@
 const datos = {
     "fecha": "22-11-2025",
-    "hora": "11:35:53",
+    "hora": "11:45:19",
     "estudios": [
         {
             "id": "1",
@@ -5994,6 +5994,66 @@ const datos = {
                         {
                             "pregunta": "¿Qué es Boxing impacto?",
                             "respuesta": "Se refiere a la conversión automática de un tipo de dato primitivo (como int) a su clase envolvente correspondiente (como Integer) para ser usado como un objeto. Crea objetos wrapper y afecta GC\/perf.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Los Principios SOLID resumidos",
+                            "respuesta": "Single responsibility, Open\/Closed, Liskov, Interface segregation, Dependency inversion.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué es polimorfismo?",
+                            "respuesta": "Referencias a la superclase referencian objetos de subclases y usan override.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Herencia vs composición",
+                            "respuesta": "Herencia = es-un; composición = tiene-un; preferir composición.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Singleton seguro",
+                            "respuesta": "Usar enum singleton o holder idiom para concurrencia.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Factory vs AbstractFactory",
+                            "respuesta": "Factory crea objeto concreto; AbstractFactory crea familias relacionadas.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Strategy pattern",
+                            "respuesta": "Encapsula algoritmos intercambiables.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Observer pattern",
+                            "respuesta": "Notificar múltiples listeners ante cambios de estado.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Dependency Injection",
+                            "respuesta": "Desacopla creación y uso; facilita testing.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Loose coupling",
+                            "respuesta": "Interfaces y eventos reducen dependencia fuerte.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Command pattern idea",
+                            "respuesta": "Encapsular peticiones como objetos para queue\/undo.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Builder pattern",
+                            "respuesta": "Construcción paso a paso de objetos complejos.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Evitar Singletons mutables",
+                            "respuesta": "Estado global complica testing y concurrencia.",
                             "color": "#c3ccc9ff"
                         }
                     ]
