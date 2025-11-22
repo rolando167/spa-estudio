@@ -73,7 +73,9 @@
 
         <div class="row mb-3">
             <div class="col-md-6">
-                <span class="text-secondary">Fecha y Hora Datos:</span> <span id="fechHoraDatos" class="text-primary"></span>
+                <span class="text-secondary">Fecha y Hora Datos:</span> <span id="fechHoraDatos"
+                    class="text-primary"></span>
+                <span id="spanIcono"></span>
             </div>
         </div>
         <hr>
@@ -153,7 +155,7 @@
         //     return hashArray.map(b => b.toString(16).padStart(2, "0")).join("");
         // }
 
-        // Cargar categorías en el select
+        // Cargar categorías en el select, Inicial
         function cargarCategorias() {
             datos.estudios.forEach(cat => {
                 const option = document.createElement('option');
@@ -206,6 +208,7 @@
         });
 
         cargarCategorias();
+        actualizarIconoDiaNoche();
 
         function logout() {
             localStorage.removeItem(STORAGE_KEY);
@@ -218,6 +221,20 @@
                     body: cuerpo,
                     icon: "icon-192.png"
                 });
+            }
+        }
+
+        function actualizarIconoDiaNoche() {
+            const span = document.getElementById('spanIcono');
+
+            const hora = new Date().getHours();
+
+            if (hora >= 7 && hora < 20) {
+                // Día
+                spanIcono.textContent = "☀️";
+            } else {
+                // Noche
+                spanIcono.textContent = "🌙";
             }
         }
 
