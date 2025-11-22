@@ -145,7 +145,7 @@
 
         // Cargar categorías en el select
         function cargarCategorias() {
-            estudios.forEach(cat => {
+            datos.estudios.forEach(cat => {
                 const option = document.createElement('option');
                 option.value = cat.id;
                 option.textContent = cat.nombre;
@@ -160,7 +160,7 @@
             selectCurso.disabled = !selectCategoria.value;
             if (!selectCategoria.value) return;
 
-            const categoria = estudios.find(c => c.id === selectCategoria.value);
+            const categoria = datos.estudios.find(c => c.id === selectCategoria.value);
             categoria.examenes.forEach(curso => {
                 const option = document.createElement('option');
                 option.value = curso.id;
@@ -174,7 +174,7 @@
             preguntasContainer.innerHTML = '';
             if (!selectCurso.value) return;
 
-            const categoria = estudios.find(c => c.id === selectCategoria.value);
+            const categoria = datos.estudios.find(c => c.id === selectCategoria.value);
             const examen = categoria.examenes.find(c => c.id === selectCurso.value);
 
             examen.preguntas.forEach((p, index) => {
@@ -187,7 +187,7 @@
                     </button>
                 </div>
                 <div id="collapse${index}" class="collapse">
-                    <div class="card-body">&#10148; ${p.respuesta}</div>
+                    <div class="card-body" style="text-align: justify;">&#10148; ${p.respuesta}</div>
                 </div>
             `;
                 preguntasContainer.appendChild(card);
@@ -217,18 +217,18 @@
 
         /** -----------  Permisos General ------------ */
 
-        if ("serviceWorker" in navigator) {
-            navigator.serviceWorker.register("sw.js")
-                .then(() => console.log("Service Worker registrado"));
-        }
+        // if ("serviceWorker" in navigator) {
+        //     navigator.serviceWorker.register("sw.js")
+        //         .then(() => console.log("Service Worker registrado"));
+        // }
 
-        if ("Notification" in window) {
-            Notification.requestPermission().then(permission => {
-                if (permission === "granted") {
-                    console.log("Notificaciones permitidas");
-                }
-            });
-        }
+        // if ("Notification" in window) {
+        //     Notification.requestPermission().then(permission => {
+        //         if (permission === "granted") {
+        //             console.log("Notificaciones permitidas");
+        //         }
+        //     });
+        // }
 
     </script>
 
