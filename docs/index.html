@@ -58,7 +58,7 @@
             <div class="col-md-6">
                 <select class="form-select form-select-sm border border-primary bg-secondary bg-gradient"
                     id="selectCategoria">
-                    <option value="">-- Selecciona una categoría --</option>
+                    <option value="">-- Seleccionar --</option>
                 </select>
             </div>
 
@@ -66,7 +66,7 @@
             <div class="col-md-6">
                 <select class="form-select form-select-sm border border-danger bg-secondary bg-gradient"
                     id="selectCurso" disabled>
-                    <option value="">-- Selecciona un examen --</option>
+                    <option value="">-- Seleccionar --</option>
                 </select>
             </div>
         </div>
@@ -166,7 +166,7 @@
         // Cargar examenes según categoría seleccionada
         selectCategoria.addEventListener('change', () => {
             preguntasContainer.innerHTML = '';
-            selectCurso.innerHTML = '<option value="">-- Selecciona un examen --</option>';
+            selectCurso.innerHTML = '<option value="">-- Seleccionar --</option>';
             selectCurso.disabled = !selectCategoria.value;
             if (!selectCategoria.value) return;
 
