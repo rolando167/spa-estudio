@@ -1,6 +1,6 @@
 const datos = {
     "fecha": "22-11-2025",
-    "hora": "12:57:59",
+    "hora": "13:00:10",
     "estudios": [
         {
             "id": "1",
