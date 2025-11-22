@@ -1,6 +1,6 @@
 const datos = {
     "fecha": "22-11-2025",
-    "hora": "15:23:45",
+    "hora": "23:44:09",
     "estudios": [
         {
             "id": "1",
@@ -5477,15 +5477,1403 @@ const datos = {
                             "pregunta": "La libertad de prensa está limitada por el respeto al honor de las personas.",
                             "respuesta": "Verdadero.",
                             "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La libertad ideológica está garantizada solo en parte del territorio nacional.",
+                            "respuesta": "Falso",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Dónde está el monte Aneto?",
+                            "respuesta": "En los Pirineos.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El principal río que desemboca en el mar Mediterráneo es el __________.",
+                            "respuesta": "Ebro",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué instrumento musical es típico del folclore español?",
+                            "respuesta": "La guitarra.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Daniel Molina",
+                            "respuesta": "Susana Rodri´guez y Sara Pe´rez son __________ ., campeones paraolímpicos",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El 6 de diciembre se celebra en España _________.",
+                            "respuesta": "El Día de la Constitución.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Quién hace el DNI?",
+                            "respuesta": "La Policía Nacional",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Dónde se tramita el libro de familia?",
+                            "respuesta": "el Registro Civil",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La sidra es una bebida típica de _________.",
+                            "respuesta": "Asturias",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El Bachillerato en España _________.",
+                            "respuesta": "Se compone de dos cursos académicos.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál de estos productos exporta España más que importa?",
+                            "respuesta": "Calzado",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿En qué casos se retira el permiso de conducir?",
+                            "respuesta": "Por la pérdida de los puntos.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La educación infantil en España __________.",
+                            "respuesta": "tiene dos ciclos.",
+                            "color": "#c3ccc9ff"
                         }
                     ]
                 },
                 {
                     "id": "5139",
                     "nombre": "Test 3 - Nacionalidad Española",
+                    "estrella": "⭐",
+                    "color": "#e01010",
+                    "preguntas": [
+                        {
+                            "pregunta": "¿Cómo se aprobó la Constitución?",
+                            "respuesta": "En referéndum.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El arane´s es una lengua cooficial que se habla en un pequen~o territorio de ______.",
+                            "respuesta": "Cataluña",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿A cuál de estas organizaciones internacionales pertenece España?",
+                            "respuesta": "A la Organización de las Naciones Unidas (ONU).",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Quién es la tercera autoridad del Estado",
+                            "respuesta": "después del rey y el presidente del Gobierno?, El presidente del Congreso de los Diputados",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La comunidad iberoamericana de Naciones está formada por ______.",
+                            "respuesta": "22 países de América y Europa.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Quién vigila puertos y aeropuertos",
+                            "respuesta": "fronteras y costas?, La Guardia Civil.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cómo se llama la policía autonómica del País Vasco?",
+                            "respuesta": "Ertzaintza.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Quién tiene el mando supremo de las Fuerzas Armadas?",
+                            "respuesta": "El rey.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Quie´n es el representante del Estado en una comunidad auto´noma?",
+                            "respuesta": "El delegado del Gobierno.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál de las siguientes personalidades ha sido presidente del Gobierno de España?",
+                            "respuesta": "José María Aznar.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "En España la policía puede entrar en cualquier casa sin resolución judicial en cualquier momento.",
+                            "respuesta": "Falso.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La ley limita el acceso de terceras personas a datos de carácter personal.",
+                            "respuesta": "Verdadero.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "En España los ciudadanos pueden elegir en qué ciudad quieren vivir.",
+                            "respuesta": "Verdadero.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál de estos climas es propio de España?",
+                            "respuesta": "Mediterráneo.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Tarragona está en _______.",
+                            "respuesta": "Cataluña",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál de las siguientes mujeres es una científica española reconocida mundialmente?",
+                            "respuesta": "Margarita Salas.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál de estas manifestaciones folclóricas es patrimonio cultural inmaterial de la humanidad?",
+                            "respuesta": "El flamenco.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La Transicio´n espan~ola a la democracia comienza en ____.",
+                            "respuesta": "1975.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuánto dura el permiso de maternidad o paternidad?",
+                            "respuesta": "16 semanas.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Los propietarios de perros deben registrarlos en ________.",
+                            "respuesta": "el Ayuntamiento.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El Ministerio de Igualdad es el encargado de luchar contra la violencia de género y la ________.",
+                            "respuesta": "discriminación.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El Impuesto sobre el Valor Añadido (IVA) forma parte de los _________.",
+                            "respuesta": "Impuestos indirectos.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El Camino de Santiago es ________.",
+                            "respuesta": "Patrimonio de la Humanidad.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál de estas tres recomendaciones podemos encontrar en un parque?",
+                            "respuesta": "No pisar el césped.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué significa Renfe?",
+                            "respuesta": "Red Nacional de los Ferrocarriles Españoles.",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
+                },
+                {
+                    "id": "5140",
+                    "nombre": "Test 4 - Nacionalidad Española",
                     "estrella": "",
                     "color": "#bbb9b9",
-                    "preguntas": []
+                    "preguntas": [
+                        {
+                            "pregunta": "¿Cuántas cámaras hay en el Parlamento español?",
+                            "respuesta": "Dos",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Las instalaciones culturales y deportivas públicas son competencia del _________.",
+                            "respuesta": "Ayuntamiento.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El Congreso de los Diputados y el Senado constituyen el poder ________.",
+                            "respuesta": "legislativo.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál de estas opciones es una lengua cooficial en alguna comunidad autónoma?",
+                            "respuesta": "el gallego",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué título tiene la futura reina",
+                            "respuesta": "hija del rey?,Princesa de Asturias.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El poder legislativo corresponde _________.",
+                            "respuesta": "A los diputados y senadores.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuántos kilómetros cuadrados tiene España",
+                            "respuesta": "más o menos?,500 000 km2",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Quién vigila el tráfico en las carreteras?",
+                            "respuesta": "La Guardia Civil.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuántas provincias hay en España?",
+                            "respuesta": "50",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Los municipios y provincias forman parte de la Administración ___________.",
+                            "respuesta": "local.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Los españoles que obtienen la nacionalidad por residencia deben esperar tres años para poder votar en las elecciones.",
+                            "respuesta": "Falso",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Todos los españoles pagan la misma cantidad de impuestos.",
+                            "respuesta": "Falso",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Los españoles deben ayudar en los casos de catástrofe o calamidad pública.",
+                            "respuesta": "Verdadero",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Dónde están las Islas Baleares?",
+                            "respuesta": "en el mar Mediterráneo",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "España está entre los países de Europa más _________.",
+                            "respuesta": "Montañosos.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué músico compuso El amor brujo?",
+                            "respuesta": "Manuel de Falla.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿En qué ciudad de España hay una mezquita que es patrimonio de la humanidad?",
+                            "respuesta": "Córdoba.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La fiesta de la Tomatina se celebra en _______.",
+                            "respuesta": "Buñol",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál es el documento que muestra el lugar de residencia del titular?",
+                            "respuesta": "El certificado de empadronamiento",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El aperitivo que acompaña a la bebida en bares y restaurantes se llama ________.",
+                            "respuesta": "tapa.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Los españoles tienen dos apellidos. El primer apellido es _________.",
+                            "respuesta": "puede ser el de la madre o el del padre",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál de estos puertos se encuentra entre los principales de España?",
+                            "respuesta": "Algeciras",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Para cuántos años vale la tarjeta sanitaria europea?",
+                            "respuesta": "para dos años.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La organización que trabaja para conseguir la integración de las personas con discapacidad visual es ________.",
+                            "respuesta": "la ONCE.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuáles de estos establecimientos está abierto 24 horas si es necesario?",
+                            "respuesta": "Farmacia",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
+                },
+                {
+                    "id": "5141",
+                    "nombre": "Test 5 - Nacionalidad Española",
+                    "estrella": "",
+                    "color": "#bbb9b9",
+                    "preguntas": [
+                        {
+                            "pregunta": "El Instituto de las Mujeres es _______.",
+                            "respuesta": "un organismo español.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La bandera de España debe utilizarse _________.",
+                            "respuesta": "En todos los edificios públicos.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "España es un ___________.",
+                            "respuesta": "Estado social y democrático de Derecho.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El Gobierno está formado por el presidente",
+                            "respuesta": "uno o más vicepresidentes y los ________.,ministros.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El Defensor del Pueblo depende de _______.",
+                            "respuesta": "las Cortes Generales.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Las Cortes Generales están compuestas por el Senado y _________.",
+                            "respuesta": "El Congreso de los Diputados.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "En España el voto en las elecciones es __________.",
+                            "respuesta": "un derecho.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Dónde se publican las leyes nacionales?",
+                            "respuesta": "En el Boletín Oficial del Estado (BOE).",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El ayuntamiento está formado por el alcalde y __________.",
+                            "respuesta": "Los concejales.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Los españoles pueden votar a partir de los _______.",
+                            "respuesta": "18 años.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La Educación Primaria (de 6 a 12 años) es gratuita y obligatoria.",
+                            "respuesta": "Verdadero",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Todos los españoles",
+                            "respuesta": "ya sean mayores o menores de edad, tienen derecho a votar en las elecciones.,Falso",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "En España está reconocido el derecho de asociación.",
+                            "respuesta": "Verdadero.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La capital de la Comunidad Autónoma de Galicia es _________.",
+                            "respuesta": "Santiago de Compostela.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "España se divide en _______.",
+                            "respuesta": "comunidades y ciudades autónomas.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Una de las cantantes españolas más famosas actualmente es ________.",
+                            "respuesta": "Rosalía",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Pablo Picasso fue un famoso ________ .",
+                            "respuesta": "Pintor",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Los Premios Goya están relacionados con _________.",
+                            "respuesta": "El cine.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál es la tasa máxima de alcohol en sangre permitida a los conductores",
+                            "respuesta": "en gramos por litro (g\/l)?,0,5",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La fiesta nacional de España es el ________.",
+                            "respuesta": "12 de octubre.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El DNI se hace _________.",
+                            "respuesta": "en persona",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál de estos productos necesita importar España de otros países?",
+                            "respuesta": "Petróleo",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Dónde puede encontrarse la siguiente norma «Dejar salir antes de entrar»?",
+                            "respuesta": "En el transporte público.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Dónde se venden sellos y tabaco?",
+                            "respuesta": "En el estanco.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Las Escuelas Oficiales de Idiomas _________.",
+                            "respuesta": "Son para mayores de 16 años.",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
+                },
+                {
+                    "id": "5142",
+                    "nombre": "Test 6 - Nacionalidad Española",
+                    "estrella": "",
+                    "color": "#bbb9b9",
+                    "preguntas": [
+                        {
+                            "pregunta": "La ley fundamental de España se llama _____.",
+                            "respuesta": "Constitución.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La gestión de la sanidad es competencia de ________.",
+                            "respuesta": "las comunidades autónomas.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "En las elecciones municipales se vota a _________.",
+                            "respuesta": "alcaldes y concejales.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Quiénes forman parte del Gobierno?",
+                            "respuesta": "los ministros",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El Instituto Etxepare tiene como misión la difusión del _________.",
+                            "respuesta": "euskera y la cultura vasca.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cómo se llama el órgano de gobierno de los jueces y magistrados?",
+                            "respuesta": "Consejo General del Poder Judicial.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Quién controla la circulación de coches en las ciudades?",
+                            "respuesta": "La Policía Local.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Do´nde se difunde toda la informacio´n sobre novedades e iniciativas de la Administracio´n electro´nica?",
+                            "respuesta": "en el PAE (Portal de Administración Electrónica).",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "En materia de nacionalidad",
+                            "respuesta": "inmigración, emigración o extranjería solo tiene competencia  __________.,el Estado.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuántos miembros tiene el Congreso de los Diputados?",
+                            "respuesta": "350",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El funcionamiento de los partidos políticos tiene que ser democrático.",
+                            "respuesta": "Verdadero",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "En España hay una religión oficial.",
+                            "respuesta": "Falso",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Segu´n la Constitucio´n",
+                            "respuesta": "la administracio´n de Justicia corresponde exclusivamente al Estado espan~ol.,Falso",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿De qué comunidad autónoma es capital Mérida?",
+                            "respuesta": "De Extremadura.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál de los siguientes ríos desemboca en el océano Atlántico?",
+                            "respuesta": "El Guadalquivir",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Los personajes principales de la novela el Quijote son Don Quijote y _________.",
+                            "respuesta": "Sancho Panza.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La Liga y la Copa del Rey son competiciones de _________.",
+                            "respuesta": "fútbol",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Dónde está al Museo del Prado?",
+                            "respuesta": "En Madrid",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Para hacer el DNI debes acudir a _______.",
+                            "respuesta": "una comisaría de policía.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Con cuántos hijos una familia es numerosa?",
+                            "respuesta": "Con 3 hijos.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál de estos canales de televisión es público?",
+                            "respuesta": "La 1",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La sangría es una bebida compuesta por refrescos",
+                            "respuesta": "vino y ________.,Fruta",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál es el horario habitual de los hipermercados y centros comerciales?",
+                            "respuesta": "de 10:00 a 22:00 h.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "España exporta productos principalmente a países _________.",
+                            "respuesta": "de la Unión Europea.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál de estas comunidades autónomas tiene el PIB por habitante más alto?",
+                            "respuesta": "Navarra",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
+                },
+                {
+                    "id": "5143",
+                    "nombre": "Test 7 - Nacionalidad Española",
+                    "estrella": "",
+                    "color": "#bbb9b9",
+                    "preguntas": [
+                        {
+                            "pregunta": "España es _______.",
+                            "respuesta": "una monarquía parlamentaria.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "En la Constitución se establece la separación de poderes: el poder ejecutivo",
+                            "respuesta": "el legislativo y el _________.,judicial.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cómo se llama la ley más importante de cada comunidad autónoma?",
+                            "respuesta": "Estatuto de autonomía.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La bandera azul con 12 estrellas amarillas en círculo es el símbolo de __________.",
+                            "respuesta": "La Unión Europea.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuántas comunidades autónomas tienen su propia bandera?",
+                            "respuesta": "Todas.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Quién puede reinar en España?",
+                            "respuesta": "Tanto los hombres como las mujeres.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La defensa de la integridad territorial de España corresponde a __________.",
+                            "respuesta": "Las Fuerzas Armadas.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Co´mo se llaman los o´rganos de gobierno que solo existen en Canarias?",
+                            "respuesta": "Cabildos",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál es el órgano de gobierno en los municipios?",
+                            "respuesta": "El ayuntamiento.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La comunidad autónoma más poblada de España es __________.",
+                            "respuesta": "Andalucía.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Se puede obligar a alguien a decir cuáles son sus ideas políticas o religiosas.",
+                            "respuesta": "Falso",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "En España los hombres y las mujeres tienen los mismos derechos.",
+                            "respuesta": "Verdadero",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Todos tienen derecho a disfrutar de un medio ambiente adecuado para el desarrollo de la persona",
+                            "respuesta": "así como el deber de conservarlo.,Verdadero",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál es la capital del Principado de Asturias?",
+                            "respuesta": "Oviedo.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Las temperaturas suaves con abundantes lluvias son propias del clima __________.",
+                            "respuesta": "oceánico",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué dulce es típico de las navidades?",
+                            "respuesta": "El turrón",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Quién ha recibido el premio Nobel de Literatura?",
+                            "respuesta": "Vicente Aleixandre",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuándo fueron los Juegos Olímpicos de Barcelona?",
+                            "respuesta": "en 1992",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál de estos canales de televisión es autonómico?",
+                            "respuesta": "Canal Sur",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Quién es un cocinero famoso dentro y fuera de España?",
+                            "respuesta": "José Andrés",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué número reciben los trabajadores al comenzar su primer empleo?",
+                            "respuesta": "El de la Seguridad Social.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Adónde vamos para ver al médico de familia o al pediatra?",
+                            "respuesta": "Al centro de salud.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El teléfono gratuito para las víctimas de violencia de género es el ________.",
+                            "respuesta": "016",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál es el sector de mayor peso en la economía española?",
+                            "respuesta": "Servicios",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cua´l es el documento que recoge los an~os de cotizacio´n a la Seguridad Social?",
+                            "respuesta": "Informe de vida laboral.",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
+                },
+                {
+                    "id": "5144",
+                    "nombre": "Test 8 - Nacionalidad Española",
+                    "estrella": "",
+                    "color": "#bbb9b9",
+                    "preguntas": [
+                        {
+                            "pregunta": "¿Cuál de estas fuerzas de seguridad es de ámbito autonómico?",
+                            "respuesta": "Policía Foral de Navarra.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Co´mo se llama la ca´mara de representacio´n territorial en Espan~a?",
+                            "respuesta": "Senado",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Que´ ley dicta el Gobierno en casos de especial urgencia?",
+                            "respuesta": "El decreto ley",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Las instituciones de una comunidad autónoma son: la asamblea legislativa",
+                            "respuesta": "el consejo de gobierno y __________.,El presidente.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Que´ organismo oficial atiende las quejas de los ciudadanos por el mal funcionamiento de las administraciones?",
+                            "respuesta": "El Defensor del Pueblo",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La Constitución defiende valores tales como la libertad",
+                            "respuesta": "la igualdad, el pluralismo político y ______.,la justicia.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La Constitución española es _______.",
+                            "respuesta": "la ley fundamental.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Quie´n regula el tra´fico en los pueblos y ciudades?",
+                            "respuesta": "La Policía Local",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El suministro de agua y el alumbrado de las ciudades es competencia de ________.",
+                            "respuesta": "el ayuntamiento.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Algunos ciudadanos extranjeros pueden votar en las elecciones _________.",
+                            "respuesta": "municipales",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Se garantiza el secreto de las comunicaciones de los españoles",
+                            "respuesta": "salvo resolución judicial.,Verdadero",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La atencio´n sanitaria pu´blica es gratuita.",
+                            "respuesta": "Verdadero",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La Ley prohíbe la discriminación por cualquier circunstancia personal o social.",
+                            "respuesta": "Verdadero",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿En qué comunidad autónoma están Guadalajara y Cuenca?",
+                            "respuesta": "En Castilla-La Mancha.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿En qué provincia está el parque nacional de Monfragüe?",
+                            "respuesta": "En Cáceres.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cómo se llama",
+                            "respuesta": "en literatura, a los siglos XVI y XVII?,Siglos de Oro.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Co´mo se llama la mayor institucio´n pu´blica dedicada a la investigacio´n en Espan~a?",
+                            "respuesta": "Consejo Superior de investigaciones Científicas (CSIC)",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué tres culturas convivieron en la España medieval?",
+                            "respuesta": "La cristiana, la judía y la musulmana.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El carné de conducir se hace en ________.",
+                            "respuesta": "la Dirección General de Tráfico (DGT)",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cómo se llama la revisión que deben pasar obligatoriamente los coches?",
+                            "respuesta": "ITV (Inspección Técnica de Vehículos).",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál de estas regiones es conocida por sus vinos con denominación de origen?",
+                            "respuesta": "Ribera de Duero",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Un colegio concertado es un colegio privado que ________.",
+                            "respuesta": "Recibe dinero de la Administración.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cómo se llama el tren español de alta velocidad?",
+                            "respuesta": "AVE",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Dónde se compran las medicinas con receta?",
+                            "respuesta": "En la farmacia",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cómo se llama la ley laboral más importante de España?",
+                            "respuesta": "El Estatuto de los Trabajadores.",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
+                },
+                {
+                    "id": "5145",
+                    "nombre": "Test 9 - Nacionalidad Española",
+                    "estrella": "",
+                    "color": "#bbb9b9",
+                    "preguntas": [
+                        {
+                            "pregunta": "Según la Constitución española",
+                            "respuesta": "la soberanía nacional reside en ________.,El pueblo español.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Quién fue el primer presidente del Gobierno de España en democracia?",
+                            "respuesta": "Adolfo Suárez",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué ciudad tiene más habitantes?",
+                            "respuesta": "Barcelona",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué lengua es oficial en el País Vasco?",
+                            "respuesta": "el euskera",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál de los siguientes organismos trabaja para conseguir la normalización lingüística?",
+                            "respuesta": "La Real Academia Española",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "En la organización de la Administración se distinguen tres niveles: central",
+                            "respuesta": "autonómico y __________.,Local",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál de estos es un órgano consultivo del Gobierno de España?",
+                            "respuesta": "El Consejo de Estado.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Quién hace el control de pasaportes en las fronteras de España?",
+                            "respuesta": "La Policía Nacional",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Do´nde tiene lugar la investidura del presidente del Gobierno?",
+                            "respuesta": "En el Congreso de los Diputados",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El idioma español también se llama _________.",
+                            "respuesta": "castellano",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La Constitución reconoce únicamente lo derechos fundamentales de los españoles.",
+                            "respuesta": "Falso",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "En caso de huelga",
+                            "respuesta": "es obligatorio por ley mantener unos servicios mínimos.,Verdadero",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Todo el mundo tiene derecho a expresar su opinión.",
+                            "respuesta": "Verdadero",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál de estas comunidades autónomas tiene más de una provincia?",
+                            "respuesta": "Castilla-La Mancha",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Los Picos de Europa están en __________.",
+                            "respuesta": "Asturias",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Dónde está La Sagrada Familia",
+                            "respuesta": "el monumento de Gaudí?,En Barcelona",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "María Zambrano",
+                            "respuesta": "María Teresa León y Rosa Chacel son _______.,escritoras",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué premios promueven en España los valores científicos",
+                            "respuesta": "culturales y humanísticos?,Los Premios Princesa de Asturias",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Las viviendas de protección oficial _________.",
+                            "respuesta": "tienen un precio limitado",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Los principales ingredientes de la tortilla española son huevos y _______.",
+                            "respuesta": "patatas",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Los colegios públicos _________.",
+                            "respuesta": "Son gratuitos.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La formación profesional _________.",
+                            "respuesta": "Puede ser de grado medio o superior.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué está prohibido hacer en la puerta de un hospital o colegio?",
+                            "respuesta": "Fumar",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Ceder el asiento a las personas con movilidad reducida es una norma que encontramos indicada en _______.",
+                            "respuesta": "El transporte público.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuándo empieza el calendario escolar?",
+                            "respuesta": "En septiembre",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
+                },
+                {
+                    "id": "5146",
+                    "nombre": "Test 10 - Nacionalidad Española",
+                    "estrella": "",
+                    "color": "#bbb9b9",
+                    "preguntas": [
+                        {
+                            "pregunta": "¿Quie´n fue el primer rey de Espan~a?",
+                            "respuesta": "Carlos I",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Todos los españoles tienen el deber de conocer la lengua _________.",
+                            "respuesta": "oficial del Estado.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Dónde vive el presidente del Gobierno?",
+                            "respuesta": "En el Palacio de la Moncloa.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cua´l de las siguientes siglas corresponde a un partido poli´tico?",
+                            "respuesta": "PP",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Dónde vive el rey?",
+                            "respuesta": "En el Palacio de la Zarzuela.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuántos millones de habitantes tiene España?",
+                            "respuesta": "48 millones",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Quién elabora las leyes?",
+                            "respuesta": "El poder legislativo",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuántos partidos políticos hay en España?",
+                            "respuesta": "Muchos",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuántas mujeres han sido presidentas de Gobierno en España?",
+                            "respuesta": "Ninguna",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cómo se llaman los órganos de gobierno de las provincias españolas?",
+                            "respuesta": "Diputaciones",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La mayoría de edad en España es a los 16 años.",
+                            "respuesta": "Falso",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "En España existe la pena de muerte.",
+                            "respuesta": "Falso",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Los trabajadores tienen derecho a hacer huelga.",
+                            "respuesta": "Verdadero",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál es la montaña más alta de la península ibérica?",
+                            "respuesta": "El Mulhacén",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál de estas comunidades autónomas tiene solo una provincia?",
+                            "respuesta": "La Rioja",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿En qué ciudad de España se encuentra La Alhambra",
+                            "respuesta": "que es Patrimonio de la Humanidad?,En Granada",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué toman los españoles la noche del 31 de diciembre para celebrar el cambio de año?",
+                            "respuesta": "Uvas",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El Premio Cervantes se da a __________ .",
+                            "respuesta": "Escritores",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Para sacar el carné de conducir hay que aprobar _________.",
+                            "respuesta": "Un examen teórico y otro práctico",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "En España está permitido el matrimonio ________.",
+                            "respuesta": "entre personas del mismo y diferente sexo.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Para acceder a la Universidad se debe superar una prueba de evaluación llamada ________.",
+                            "respuesta": "EVAU",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Las bibliotecas públicas son gratuitas para _________.",
+                            "respuesta": "Todos.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál es un periódico deportivo?",
+                            "respuesta": "As",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El aeropuerto Adolfo Suárez está en __________.",
+                            "respuesta": "Madrid",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Los españoles necesitan el pasaporte para viajar a ________.",
+                            "respuesta": "China",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
+                },
+                {
+                    "id": "5147",
+                    "nombre": "Test 11 - Nacionalidad Española",
+                    "estrella": "",
+                    "color": "#bbb9b9",
+                    "preguntas": [
+                        {
+                            "pregunta": "¿Cuál de estos organismos se encarga de interpretar la Constitucio´n?",
+                            "respuesta": "El Tribunal Constitucional",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué hay en las islas Baleares",
+                            "respuesta": "en vez de diputaciones?,Consejos insulares",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Con qué rey se restaura la democracia en España después del régimen de Franco?",
+                            "respuesta": "Con Juan Carlos I",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El nombre oficial del parlamento español es __________.",
+                            "respuesta": "Cortes Generales",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué lengua cooficial se habla en las islas Baleares?",
+                            "respuesta": "Catalán",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La Secretari´a Xeral de Poli´tica Lingu¨i´stica difunde y promociona la lengua y la cultura _______.",
+                            "respuesta": "gallegas",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Desde qué año es rey Felipe VI?",
+                            "respuesta": "Desde 2014",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál es el número de teléfono de información de la Administración General del Estado?",
+                            "respuesta": "060",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La enseñanza de las lenguas cooficiales es competencia _________.",
+                            "respuesta": "de la comunidad autónoma",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿A quiénes se elige en las elecciones al Parlamento Europeo?",
+                            "respuesta": "A los eurodiputados",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La Constitución garantiza el derecho de los españoles a una vivienda digna.",
+                            "respuesta": "Verdadero",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Los profesores pueden enseñar con libertad",
+                            "respuesta": "dentro de los límites de la Constitución.,Verdadero",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Los poderes públicos deben promover la educación física y el deporte.",
+                            "respuesta": "Verdadero",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Dónde están Cáceres y Badajoz?",
+                            "respuesta": "En Extremadura",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Canarias tiene un clima __________.",
+                            "respuesta": "Subtropical",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Isabel Coixet es una _______.",
+                            "respuesta": "directora de cine",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La Feria del Libro se celebra en toda España",
+                            "respuesta": "normalmente, en _________.,primavera",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué escritora española escribe en otra lengua oficial de España?",
+                            "respuesta": "Mercè Rodorera",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El horario de Canarias",
+                            "respuesta": "con respecto a la Península, es de ________.,Una hora menos",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Los adultos sin Bachillerato pueden estudiar en la Universidad haciendo una prueba especial a partir de los ________.",
+                            "respuesta": "25 años",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál es el canal de televisión estatal que transmite noticias de actualidad nacional e internacional continuamente?",
+                            "respuesta": "Canal 24 horas",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "En España",
+                            "respuesta": "la red de trenes puede ser de larga distancia, de media distancia y _________.,De cercanías",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Cuando compramos 250 gramos de un alimento estamos comprando _________.",
+                            "respuesta": "un cuarto de kilo",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "En un coche es obligatorio el uso del cinturón de seguridad __________.",
+                            "respuesta": "En todos los asientos.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál es la edad mínima para trabajar en España?",
+                            "respuesta": "16 años",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
+                },
+                {
+                    "id": "5148",
+                    "nombre": "Test 12 - Nacionalidad Española",
+                    "estrella": "",
+                    "color": "#bbb9b9",
+                    "preguntas": [
+                        {
+                            "pregunta": "¿Cuántas ciudades autónomas hay en España?",
+                            "respuesta": "2",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Los colores de la bandera española son __________.",
+                            "respuesta": "Rojo y amarillo",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué institución tiene como fin la promoción de la enseñanza de la lengua española y la difusión de la cultura en español?",
+                            "respuesta": "El Instituto Cervantes",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cua´ntas firmas",
+                            "respuesta": "como mi´nimo, deben recoger los ciudadanos para poder presentar una proposicio´n de ley?,500.000",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El Tribunal de Cuentas depende de _________.",
+                            "respuesta": "las Cortes Generales.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Quién dirige la política interior y exterior de España?",
+                            "respuesta": "El Gobierno",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "El Ejército español participa desde 1989 en misiones de paz de la __________.",
+                            "respuesta": "Organización de Naciones Unidas (ONU)",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cómo se llama la policía autonómica de Cataluña?",
+                            "respuesta": "Mossos d'Esquadra",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué organismo se encarga de recaudar los impuestos?",
+                            "respuesta": "La Agencia Tributaria",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Quién controla la gestión financiera del Estado?",
+                            "respuesta": "El Tribunal de Cuentas",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "En España las causas de separación y divorcio están reguladas por la ley.",
+                            "respuesta": "Verdadero",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "La enseñanza obligatoria consta de dos etapas: Educación Primaria y Educación Secundaria Obligatoria.",
+                            "respuesta": "Verdadero",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Todos los ciudadanos tienen acceso al sistema de Seguridad Social público",
+                            "respuesta": "excepto si están desempleados.,Falso",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Dónde está Almería?",
+                            "respuesta": "En Andalucía",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál de estas provincias forma parte de la Comunidad de Castilla-Leo´n?",
+                            "respuesta": "Burgos",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Paco de Lucía fue un famoso __________.",
+                            "respuesta": "Guitarrista",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Las chirigotas de Ca´diz son ti´picas de ________.",
+                            "respuesta": "los carnavales.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Do´nde se encuentran las Cuevas de Altamira que son Patrimonio de la Humanidad?",
+                            "respuesta": "En Cantabria",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál es la edad mínima para conducir en España?",
+                            "respuesta": "18 años",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué comunidad autónoma es conocida por la calidad de su aceite de oliva?",
+                            "respuesta": "Andalucía",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Dónde se hace el pasaporte?",
+                            "respuesta": "En una comisaría de policía",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "Una persona mayor de 18 años puede obtener el título de Graduado en Educación Secundaria Obligatoria en __________.",
+                            "respuesta": "Un centro de Educación de Personas Adultas",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál es el número de teléfono único para cualquier emergencia?",
+                            "respuesta": "112",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Cuál de las siguientes cosas es obligatoria para el propietario de un coche en España?",
+                            "respuesta": "El seguro",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "España es innovadora en el sector de _______.",
+                            "respuesta": "las energías renovables",
+                            "color": "#c3ccc9ff"
+                        }
+                    ]
                 }
             ]
         },
