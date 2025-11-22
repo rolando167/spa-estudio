@@ -160,7 +160,7 @@
             datos.estudios.forEach(cat => {
                 const option = document.createElement('option');
                 option.value = cat.id;
-                option.textContent = cat.nombre;
+                option.textContent = `• ${cat.nombre}`;
                 selectCategoria.appendChild(option);
             });
             fechHoraDatos.textContent = `${datos.fecha} ${datos.hora}`;
@@ -177,12 +177,12 @@
             categoria.examenes.forEach(curso => {
                 const option = document.createElement('option');
                 option.value = curso.id;
-                option.textContent = curso.nombre;
+                option.textContent = `• ${curso.nombre}`;
                 selectCurso.appendChild(option);
             });
         });
 
-        // Cargar preguntas según curso seleccionado
+        // Cargar preguntas según examen seleccionado
         selectCurso.addEventListener('change', () => {
             preguntasContainer.innerHTML = '';
             if (!selectCurso.value) return;
