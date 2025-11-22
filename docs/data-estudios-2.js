@@ -1,6 +1,6 @@
 const datos = {
     "fecha": "22-11-2025",
-    "hora": "11:45:19",
+    "hora": "12:23:34",
     "estudios": [
         {
             "id": "1",
@@ -6054,6 +6054,21 @@ const datos = {
                         {
                             "pregunta": "Evitar Singletons mutables",
                             "respuesta": "Estado global complica testing y concurrencia.",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué es el Error de desbordamiento de pila?",
+                            "respuesta": "ocurre cuando un programa intenta usar más memoria de la asignada a la pila de llamadas. Las causas más comunes son la recursividad infinita o el intento de almacenar demasiados datos en la pila, que funciona bajo el principio LIFO (el último en entrar es el primero en salir).",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué es LIFO 'Last In, First Out'?",
+                            "respuesta": "Último en entrar, primero en salir. Se aplica a las pilas, donde el último elemento añadido es el primero en ser eliminado, como en una pila de platos",
+                            "color": "#c3ccc9ff"
+                        },
+                        {
+                            "pregunta": "¿Qué es FIFO 'First In, First Out'?",
+                            "respuesta": "Primero en entrar, primero en salir, Se aplica a las colas, donde el primer elemento en llegar es el primero en ser procesado, similar a una fila de personas.",
                             "color": "#c3ccc9ff"
                         }
                     ]
