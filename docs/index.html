@@ -160,6 +160,7 @@
                 option.textContent = cat.nombre;
                 selectCategoria.appendChild(option);
             });
+            fechHoraDatos.textContent = `${datos.fecha} ${datos.hora}`;
         }
 
         // Cargar examenes según categoría seleccionada
@@ -185,7 +186,6 @@
 
             const categoria = datos.estudios.find(c => c.id === selectCategoria.value);
             const examen = categoria.examenes.find(c => c.id === selectCurso.value);
-            fechHoraDatos.textContent = `${datos.fecha} ${datos.hora}`
 
             examen.preguntas.forEach((p, index) => {
                 const card = document.createElement('div');
