@@ -73,7 +73,7 @@
 
         <div class="row mb-3">
             <div class="col-md-6">
-                <span>Fecha y Hora Datos:</span> <span id="fechHoraDatos"></span>
+                <span>Fecha y Hora Datos:</span> <span id="fechHoraDatos" class="text-primary"></span>
             </div>
         </div>
 
@@ -96,6 +96,7 @@
         const preguntasContainer = document.getElementById('preguntasContainer');
         const toggleDark = document.getElementById('toggleDark');
         const body = document.body;
+        const fechHoraDatos = document.getElementById('fechHoraDatos');
 
         const PASSWORD_HASH = "b2b2f104d32c638903e151a9b20d6e27b41d8c0c84cf8458738f83ca2f1dd744";
         const STORAGE_KEY = "spa_acceso_permitido";
@@ -184,6 +185,7 @@
 
             const categoria = datos.estudios.find(c => c.id === selectCategoria.value);
             const examen = categoria.examenes.find(c => c.id === selectCurso.value);
+            fechHoraDatos.textContent = `${datos.fecha} ${datos.hora}`
 
             examen.preguntas.forEach((p, index) => {
                 const card = document.createElement('div');
